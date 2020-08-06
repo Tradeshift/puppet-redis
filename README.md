@@ -1,4 +1,6 @@
-#redis
+Note: This fork is being referenced at https://github.com/Tradeshift/tradeshift-puppet/blob/testing/Puppetfile#L191 and contains the following Tradeshift-specific changes: https://github.com/Tradeshift/puppet-redis/pulls?q=is%3Apr+is%3Aclosed
+
+# redis
 
 ####Table of Contents
 
