@@ -16,7 +16,7 @@ gem 'rspec-puppet', '>= 2.3.2',           :require => false
 gem 'rspec-puppet-facts',                 :require => false
 gem 'metadata-json-lint',                 :require => false
 # rubi <1.9 versus rake 11.0.0 workaround
-gem 'rake', '< 11.0.0',                   :require => false if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('2.0.0')
+gem 'rake', '< 13.1.1',                   :require => false if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('2.0.0')
 gem 'json', '< 2.7.2',                    :require => false if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('2.0.0')
 gem 'json_pure', '<= 2.7.1',              :require => false if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('2.0.0')
 
