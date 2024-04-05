@@ -10,7 +10,7 @@ def location_for(place, version = nil)
   end
 end
 
-gem 'puppetlabs_spec_helper', '>= 0.1.0', :require => false
+gem 'puppetlabs_spec_helper', '>= 7.1.0', :require => false
 gem 'puppet-lint', '>= 0.3.2',            :require => false
 gem 'rspec-puppet', '>= 2.3.2',           :require => false
 gem 'rspec-puppet-facts',                 :require => false
