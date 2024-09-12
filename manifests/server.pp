@@ -196,11 +196,11 @@ define redis::server (
   case $::osfamily {
     'RedHat': {
       $service_file = "/usr/lib/systemd/system/redis-server_${redis_name}.service"
-      if $::operatingsystemmajrelease >= 7 { $has_systemd = true }
+      if $::operatingsystemmajrelease >= '7' { $has_systemd = true }
     }
     'Debian': {
       $service_file = "/etc/systemd/system/redis-server_${redis_name}.service"
-      if $::operatingsystemmajrelease >= 8 { $has_systemd = true }
+      if $::operatingsystemmajrelease >= '8' { $has_systemd = true }
     }
     default:  {
       $has_systemd = false
